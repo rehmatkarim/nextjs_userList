@@ -19,7 +19,7 @@ const users = ({ users }) => {
     <>
       {users.map((user) => (
         <Link href={`/userDetail/${user.id}`}>
-          <Card key={user.id} body>
+          <Card className="card" key={user.id} body>
             {user.name}
           </Card>
         </Link>
