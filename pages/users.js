@@ -17,6 +17,7 @@ export const getStaticProps = async () => {
 const users = ({ users }) => {
   return (
     <>
+    <div className="container">
       {users.map((user) => (
         <Link href={`/userDetail/${user.id}`}>
           <Card className="card" key={user.id} body>
@@ -24,6 +25,7 @@ const users = ({ users }) => {
           </Card>
         </Link>
       ))}
+      </div>
     </>
   );
 };
