@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+footer{
+  background-color: rgb(1, 22, 59);
+  color:#fff;
+  font-size: 0.8rem;
+}
